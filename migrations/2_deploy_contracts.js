@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("./SimpleSmartContract.sol");
+const SimpleSmartContract = artifacts.require("SimpleSmartContract");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(SimpleSmartContract);
 };
